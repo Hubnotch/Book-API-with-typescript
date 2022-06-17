@@ -1,0 +1,27 @@
+{
+  "name": "book-api-with-typescript",
+  "version": "1.0.0",
+  "description": "A simple CRUD API with tpescript",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon bknd/server.js",
+    "build": "tsc --project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hubnotch/Book-API-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "Ekene Ugwuanyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hubnotch/Book-API-with-typescript/issues"
+  },
+  "homepage": "https://github.com/Hubnotch/Book-API-with-typescript#readme",
+  "dependencies": {
+    "ts-node": "^10.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
